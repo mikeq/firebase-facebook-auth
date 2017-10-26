@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 0.2em;
+}
+
+.grid div:first-child {
+  grid-column: 2 / 3;
+  text-align: end;
+}
+
+.grid div:last-child {
+  grid-column: 3 / 4;
+  text-align: start;
+}
